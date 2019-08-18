@@ -1,12 +1,12 @@
 //first test case data
 export const servers = [{
-    'url': 'http://google.com',
+    'url': 'http://linkedin.com',
     'priority': 4
 }, {
-    'url': 'http://doesNotExit.bosta.co',
+    'url': 'http://doesNotExit.example.com',
     'priority': 1
 }, {
-    'url': 'http://bosta.co',
+    'url': 'http://example.com',
     'priority': 7
 }, {
     'url': 'http://google.com',
@@ -14,16 +14,16 @@ export const servers = [{
 }];
 
 export const filteredSortedServers = [{
-    'url': 'http://doesNotExit.bosta.co',
+    'url': 'http://doesNotExit.example.com',
     'priority': 1
 }, {
     'url': 'http://google.com',
     'priority': 2
 }, {
-    'url': 'http://google.com',
+    'url': 'http://linkedin.com',
     'priority': 4
 }, {
-    'url': 'http://bosta.co',
+    'url': 'http://example.com',
     'priority': 7
 }];
 

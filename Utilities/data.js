@@ -3,7 +3,7 @@ export const servers = [{
     'url': 'http://linkedin.com',
     'priority': 4
 }, {
-    'url': 'http://doesNotExit.example.com',
+    'url': 'http://twitter.com',
     'priority': 1
 }, {
     'url': 'http://example.com',
@@ -14,7 +14,7 @@ export const servers = [{
 }];
 
 export const filteredSortedServers = [{
-    'url': 'http://doesNotExit.example.com',
+    'url': 'http://twitter.com',
     'priority': 1
 }, {
     'url': 'http://google.com',
